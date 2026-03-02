@@ -1,0 +1,1 @@
+from .analytics_table_schema import table_schema

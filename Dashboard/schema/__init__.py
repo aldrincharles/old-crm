@@ -1,0 +1,1 @@
+from .contacts_dashboard_schema import table_schema

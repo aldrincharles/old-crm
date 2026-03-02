@@ -1,0 +1,39 @@
+.print-source {
+  display: none;
+}
+
+@media print {
+  .print-source {
+    display: block;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
+@media print {
+  .page-break {
+    display: block;
+    page-break-after: always;
+  }
+}
+
+@media print {
+  .print-body {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align:center;
+  }
+}
+
+@media print {
+  .print-section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+}

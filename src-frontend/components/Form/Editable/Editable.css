@@ -1,0 +1,17 @@
+.editable-input {
+  height: auto;
+}
+
+.editable-input:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
+
+.editable-textarea {
+  height: auto;
+}
+
+.editable-textarea:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+}

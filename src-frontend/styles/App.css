@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-90w {
+  width: 90% !important;
+}
+
+.icon-button {
+  font-size: 15px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.icon-button:hover {
+  color: darkblue;
+}
+
+.pointer-active {
+  cursor: pointer;
+}
+
+.bg-silver {
+  background-color: rgb(192, 192, 192);
+}
+.bg-bronze {
+  background-color: rgb(205, 127, 50);
+}
+.bg-linkedin {
+  background-color: rgb(40, 103, 178);
+}
+
+.padding-horizontal {
+  padding-left: 100rem;
+  padding-right: 100rem;
+}
+
+.table-label-width {
+  width: 30%;
+}
+.white-space-display {
+  white-space: pre-line;
+}
+
+div,
+td {
+  white-space: pre-line;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-label {
+  display: flex;
+  flex-direction: column;
+  font-size: xx-small;
+  font-weight: bold;
+}
+
+.card {
+  padding: 1rem;
+  /* background-color: aqua; */
+}
+
+.brand,
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}

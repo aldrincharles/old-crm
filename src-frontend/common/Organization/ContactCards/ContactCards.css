@@ -1,0 +1,16 @@
+.grid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid > div {
+  flex-basis: calc(20% - 5px);
+}
+
+.box {
+  margin: 10px;
+}

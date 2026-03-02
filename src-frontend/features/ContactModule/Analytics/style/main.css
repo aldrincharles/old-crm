@@ -1,0 +1,16 @@
+.contact-analytics-grid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-analytics-grid > div {
+  flex-basis: calc(49% - 2px);
+}
+
+.contact-analytics-box {
+  margin: 5px;
+}

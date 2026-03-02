@@ -1,0 +1,8 @@
+.select-wrapper-container {
+  .select-wrapper__control {
+    z-index: 1;
+  }
+  .select-wrapper__menu {
+    z-index: 2;
+  }
+}
